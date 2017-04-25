@@ -269,11 +269,11 @@ footer {
 }
 
 .type-signature {
-  color: #CA79CA
+  color: #4d4e53;
 }
 
 .type-signature:last-child {
-  color: #eee;
+  color: #4d4e53;
 }
 
 .name, .signature {
