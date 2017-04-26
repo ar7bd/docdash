@@ -394,7 +394,7 @@ footer {
    user-select: text;
 }
 
-.params, .props {
+table {
   border-spacing: 0;
   border: 1px solid #ddd;
   border-collapse: collapse;
@@ -413,13 +413,13 @@ footer {
   white-space: pre;
 }
 
-.params td, .params .name, .props .name, .name code {
+td, .params .name, .props .name, .name code {
    color: #4D4E53;
    font-family: Consolas, Monaco, 'Andale Mono', monospace;
    font-size: 100%;
 }
 
-.params td, .params th, .props td, .props th {
+td, th {
    margin: 0px;
    text-align: left;
    vertical-align: top;
@@ -427,16 +427,11 @@ footer {
    display: table-cell;
 }
 
-.params td {
+td {
    border-top: 1px solid #eee
 }
 
-.params thead tr, .props thead tr {
-   background-color: #fff;
-   font-weight: bold;
-}
-
-.params .params thead tr, .props .props thead tr {
+thead tr {
    background-color: #fff;
    font-weight: bold;
 }
